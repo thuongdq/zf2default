@@ -1,0 +1,13 @@
+.viewall {
+	font-style: italic;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 13px;
+}
+
+.filedel {
+	text-align: center;
+	color: red;
+	font-style: italic;
+	text-decoration: line-through;
+}

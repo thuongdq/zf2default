@@ -1,0 +1,80 @@
+.iframe-buttn {
+	line-height: 14px !important;
+	background-color: #182227;
+	color: #CCC;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+	transition: all 0.1s ease-in-out 0s;
+    font-size: 10px;
+    text-transform: uppercase;
+    display: block;
+    padding: 3px 10px;
+    float: right;
+    margin: 0px 0px 0px 5px;
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    background-position: 94% center;
+	cursor: pointer;
+	border: none;
+}
+.iframe-buttn:hover {
+	background-color: #CF3805;
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 14px !important;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+.container-collapsed .edit-settings {
+    display: none;
+    padding : 5px;
+}
+.inner-divs {
+	clear: both;
+	padding-bottom: 20px;
+}
+.rfm_input {
+	float: right;
+	color: #333;
+	border: 1px solid #AAA;
+	padding: 5px;
+	font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+	font-size: 12px;
+	border-radius: 2px;
+	width: 50px;
+}
+.fancy-message {
+    border: 1px solid;
+    padding: 20px 10px 10px 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.fancy-message.error {
+	background: #F2DEDE;
+	color: #A94442;
+}
+.fancy-message.seccess {
+    background: #DFF0D8;
+    color: #3C8C8F;
+}
+.fancy-message.info {
+    background: #D9EDF7;
+    color: #31708F;
+}
+.collapsedlegend {
+    cursor: pointer;
+    background-image: url("../../../admin/template/images/utick.png");
+    background-repeat: no-repeat;
+    background-position: 92% center;
+    padding: 0px 18px 0px 8px;
+    margin: 6px;
+}
+.required{
+    color: red;
+    position: relative;
+    line-height: 18px;
+    font-size: 18px;
+    padding-left: 4px;
+    top: 3px;
+}
